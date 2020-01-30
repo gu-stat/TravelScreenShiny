@@ -1,6 +1,7 @@
 library(shiny);library(tidyverse);library(viridis)
 
 shinyUI(fluidPage(
+  tags$head(tags$style("#figPanel{height:100vh !important;}")),
   titlePanel("Estimating the effectiveness of traveller screening programs to detect people infected with 2019-nCoV"),
   fluidRow(
     column(width = 3,
